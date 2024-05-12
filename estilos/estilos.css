@@ -78,3 +78,28 @@ a{
     font-size: 20px;
     color: brown;
 }
+
+.principal{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.margen{
+    height: auto;
+}
+
+.navegacion{
+    width: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+}
+
+.division{
+    width: 100%;
+    height: 150px;
+    margin: 10px;
+}
